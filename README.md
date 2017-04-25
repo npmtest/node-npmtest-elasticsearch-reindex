@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-elasticsearch-reindex/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-elasticsearch-reindex/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-elasticsearch-reindex/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-elasticsearch-reindex/build/coverage.html/index.html)
 
@@ -35,31 +35,15 @@
 ```json
 
 {
-    "name": "elasticsearch-reindex",
-    "version": "1.1.15",
-    "description": "Elasticsearch reindex tool",
-    "main": "index.js",
-    "scripts": {
-        "test": "npm test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/garbin/elasticsearch-reindex.git"
+    "author": {
+        "name": "Garbin Huang"
     },
     "bin": {
         "elasticsearch-reindex": "./bin/elasticsearch-reindex.js"
     },
-    "keywords": [
-        "elasticsearch",
-        "reindex",
-        "tool"
-    ],
-    "author": "Garbin Huang <garbinh@gmail.com>",
-    "license": "MIT",
     "bugs": {
         "url": "https://github.com/garbin/elasticsearch-reindex/issues"
     },
-    "homepage": "https://github.com/garbin/elasticsearch-reindex",
     "dependencies": {
         "agentkeepalive": "^3.0.0",
         "async": "^1.5.0",
@@ -73,7 +57,38 @@
         "pace": "0.0.4",
         "progress": "^1.1.8",
         "underscore": "^1.7.0"
-    }
+    },
+    "description": "Elasticsearch reindex tool",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "f1fe816877a1dfc9c1dcdbe3a5209239d0543b85",
+        "tarball": "https://registry.npmjs.org/elasticsearch-reindex/-/elasticsearch-reindex-1.1.15.tgz"
+    },
+    "gitHead": "4e8154f5d4114fa3b67f0a6fff112beaebe5eed0",
+    "homepage": "https://github.com/garbin/elasticsearch-reindex",
+    "keywords": [
+        "elasticsearch",
+        "reindex",
+        "tool"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "garbin"
+        }
+    ],
+    "name": "elasticsearch-reindex",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/garbin/elasticsearch-reindex.git"
+    },
+    "scripts": {
+        "test": "npm test"
+    },
+    "version": "1.1.15"
 }
 ```
 
